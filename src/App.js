@@ -17,7 +17,7 @@ const App = () => {
         <div id="outer-container">
           <Header pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
           <div id="page-wrap">
-            <Route path="/gallery" exact component={GalleryList} />
+            <Route path="/" exact component={GalleryList} />
           </div >
         </div>
           <Switch>
